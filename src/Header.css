@@ -1,0 +1,35 @@
+.header {
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 15%);
+}
+.header-page {
+  display: flex;
+  justify-content: space-between;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+}
+.img-logo {
+  height: 32px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  margin-right: 8px;
+  list-style: none;
+}
+.nav-item-link {
+  text-decoration: none;
+  color: #000000;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+}
+.header-text {
+  margin-left: 8px;
+  text-decoration: none;
+  color: #000000;
+}
