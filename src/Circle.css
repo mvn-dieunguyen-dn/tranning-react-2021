@@ -1,0 +1,19 @@
+.circle {
+  margin: 0 auto;
+  border-radius: 50%;
+  background: red;
+}
+.number-count {
+  padding-top: 15px;
+}
+.page-circle {
+  margin: 10px;
+}
+.btn-circle {
+    width: 65px;
+    height: 30px;
+    background: pink;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
