@@ -3,3 +3,17 @@
   margin: 100px 0 24px 0;
   text-align: center;
 }
+.circles {
+  display: flex;
+  justify-content: center;
+}
+.btn-page {
+  margin: 10px;
+  padding: 8px 14px;
+  background: #58b5cc;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
