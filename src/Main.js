@@ -1,14 +1,15 @@
 // import logo from './logo.svg';
-import Circle from './Circle.js';
+// import Circle from './Circle.js';
+import List from './List.js';
 import './Main.css';
 import React, { Component } from 'react';
 
 class Main extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      page: 'home'
-    };
+    // this.state = {
+    //   page: 'home'
+    // };
   }
 
   handleChangePage(page) {
@@ -18,12 +19,13 @@ class Main extends Component {
   }
 
   render() {
-    const { page }  = this.state;
+    // const { page }  = this.state;
     return (
       <main className="main">
         <div className="container">
           <div className="main-page">
-            <button className="btn-page" onClick={() => this.handleChangePage('home')}>Home</button>
+            <List />
+            {/* <button className="btn-page" onClick={() => this.handleChangePage('home')}>Home</button>
             <button className="btn-page" onClick={() => this.handleChangePage('about')}>About</button>
             {(page === 'home') &&
             <div className="circles">
@@ -32,7 +34,7 @@ class Main extends Component {
               <Circle number="15" width="50" height="50" bg="green" />
             </div>}
             {(page === 'about') &&
-            <div className="abouts">About page</div>}
+            <div className="abouts">About page</div>} */}
           </div>
         </div>
       </main>
