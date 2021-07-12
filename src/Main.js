@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 // import Circle from './Circle.js';
 // import List from './List.js';
-import Form from './Form.js';
+import FormHooks from './FormHooks';
 import './Main.css';
 import React, { Component } from 'react';
 
@@ -26,7 +26,7 @@ class Main extends Component {
         <div className="container">
           <div className="main-page">
             {/* <List /> */}
-            <Form />
+            <FormHooks />
             {/* <button className="btn-page" onClick={() => this.handleChangePage('home')}>Home</button>
             <button className="btn-page" onClick={() => this.handleChangePage('about')}>About</button>
             {(page === 'home') &&
