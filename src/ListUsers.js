@@ -25,9 +25,6 @@ const ListUsers = () => {
         <h2 className="text-uppercase">List
             <span className="color-green"> Users</span>
         </h2>
-        <div className="line-1"></div>
-        <div className="line-2"></div>
-        <div className="line-3"></div>
       </div>
       <table className="table table-bordered">
         <thead>
