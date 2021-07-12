@@ -21,11 +21,7 @@ const ListUsers = () => {
 
   return (
     <div className="list-user">
-      <div className="heading">
-        <h2 className="text-uppercase">List
-            <span className="color-green"> Users</span>
-        </h2>
-      </div>
+      <h2 className="title-page">List Users</h2>
       <table className="table table-bordered">
         <thead>
           <tr>
