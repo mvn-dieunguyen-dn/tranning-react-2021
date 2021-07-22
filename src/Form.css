@@ -1,3 +1,6 @@
+.title-page {
+  text-align: initial;
+}
 .d-flex {
   display: flex;
 }
@@ -78,4 +81,42 @@ table th {
   color: #0F3661;
   font-weight: 400;
   white-space: nowrap;
+}
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+/* pagination */
+.pagination-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding:30px 0;
+}
+.page-item {
+  padding: 0 12px;
+  height: 32px;
+  text-align: center;
+  margin: auto 4px;
+  color: rgba(0,0,0,.87);
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  letter-spacing: .01071em;
+  border-radius: 16px;
+  line-height: 1.43;
+  font-size: 13px;
+  min-width: 32px;
+  cursor: pointer;
+}
+.page-item i {
+  font-size: 18px;
+}
+.page-item.selected {
+  background-color: rgba(0,0,0,.08);
+}
+.page-item.disable {
+  opacity: 0.6;
+  pointer-events: none;
 }
