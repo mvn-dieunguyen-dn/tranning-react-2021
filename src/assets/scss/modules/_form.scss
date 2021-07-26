@@ -1,0 +1,124 @@
+.title-page {
+  text-align: center;
+  margin: 16px;
+  font-size: 48px;
+}
+.d-flex {
+  display: flex;
+}
+.form-page {
+  width: 500px;
+  margin: 0 auto;
+}
+.form-group {
+  width: 100%;
+  margin-bottom: 16px;
+  text-align: initial;
+}
+.form-label {
+  display: inline-block;
+  width: 100%;
+  color: #14181A;
+  padding-bottom: 10px;
+}
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=tel],
+select, textarea {
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 18px;
+  width: 100%;
+  border: 1px solid #AEB5B8;
+  color: #14181A;
+  background: #fff;
+  outline: none;
+  transition: border-color 0.4s;
+  -webkit-appearance: none;
+  transition: border-color 0.4s, box-shadow 0.4s;
+  box-sizing: border-box;
+}
+.btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-size: 1.125rem;
+  height: 40px;
+  color: #fff;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 400ms ease;
+  border: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  background: #0f3661;
+  width: 100%;
+}
+/* List user */
+.list-users {
+  margin-left: 50px;
+  min-width: 600px;
+}
+/* Table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 0;
+}
+table tr {
+  border-bottom: 1px solid #AEB5B8;
+  cursor: pointer;
+}
+table td, th {
+  padding: 16px 8px;
+  text-align: left;
+}
+table th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #0F3661;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+/* pagination */
+.pagination-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding:30px 0;
+}
+.page-item {
+  padding: 0 12px;
+  height: 32px;
+  text-align: center;
+  margin: auto 4px;
+  color: rgba(0,0,0,.87);
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  letter-spacing: .01071em;
+  border-radius: 16px;
+  line-height: 1.43;
+  font-size: 13px;
+  min-width: 32px;
+  cursor: pointer;
+}
+.page-item i {
+  font-size: 18px;
+}
+.page-item.selected {
+  background-color: rgba(0,0,0,.08);
+}
+.page-item.disable {
+  opacity: 0.6;
+  pointer-events: none;
+}

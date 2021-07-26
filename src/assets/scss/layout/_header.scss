@@ -1,0 +1,38 @@
+.page-header {
+  background: #000;
+  padding: 8px;
+  .container {
+    display: flex;
+    align-items: center;
+    .header-account {
+      margin-left: auto;
+      display: flex;
+      padding-left: 8px;
+      a {
+        color: #fff;
+        font-size: 18px;
+        padding-left: 16px;
+        text-decoration: none;
+      }
+    }
+    .logo {
+      img {
+        width: 100px;
+      }
+    }
+    .page-nav {
+      a {
+        display: block;
+        padding: 10px;
+        color: #fff;
+        text-decoration: none;
+      }
+      ul {
+        display: flex;
+      }
+      li {
+        margin-left: auto;
+      }
+    }
+  }
+}

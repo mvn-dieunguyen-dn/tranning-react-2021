@@ -1,15 +1,31 @@
 import './App.css';
-import Header from './Header.js';
-import Main from './Main.js';
-import Footer from './Footer.js';
+import Header from './components/Header/index'
+import Footer from './components/Footer/index'
+import Feature from './pages/Features/index'
+import Account from './pages/Account';
+import Auth from './pages/Auth';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import PrivateRoute from './core/guard/PrivateRoute';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Main />
-      {/* <Footer /> */}
-    </div>
+    <>
+      <Router>
+        <Header />
+        <Switch>
+          <PrivateRoute path="/account">
+            <Account />
+          </PrivateRoute>
+          <Route path="/auth">
+            <Auth />
+          </Route>
+          <Route path="/">
+            <Feature />
+          </Route>
+        </Switch>
+        <Footer />
+      </Router>
+    </>
   );
 }
 

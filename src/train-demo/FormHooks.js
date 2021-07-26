@@ -31,7 +31,6 @@ const FormHooks = () => {
     id += 1;
     const user = { ...form, id };
     setUsers([ ...users, user ])
-    console.log(users);
   }
 
   function handleRemove(e) {
