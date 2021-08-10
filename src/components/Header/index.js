@@ -1,9 +1,12 @@
 import React from 'react';
-import { FaShoppingCart, FaUserAlt } from 'react-icons/fa';
+import { FaHeart, FaShoppingCart, FaUserAlt } from 'react-icons/fa';
 import { Link, NavLink, Route } from 'react-router-dom';
 import PrivateRoute from '../../core/guard/PrivateRoute';
+import { useSelector, useDispatch } from 'react-redux'
 
 function Header(props) {
+  const favs = useSelector((state) => state.fav.value)
+
   return (
     <header className="page-header">
       <div className="container">
@@ -24,6 +27,14 @@ function Header(props) {
           </ul>
         </nav>
         <ul className="header-account">
+          <li>
+            <NavLink to="/">
+              <FaHeart />
+              <span>
+                { !!favs.length && favs.length }
+              </span>
+            </NavLink>
+          </li>
           <li>
             <NavLink to="/auth/login">Login</NavLink>
           </li>
