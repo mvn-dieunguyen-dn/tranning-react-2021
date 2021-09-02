@@ -1,8 +1,7 @@
 import React from 'react';
-import { FaHeart, FaShoppingCart, FaUserAlt } from 'react-icons/fa';
-import { Link, NavLink, Route } from 'react-router-dom';
-import PrivateRoute from '../../core/guard/PrivateRoute';
-import { useSelector, useDispatch } from 'react-redux'
+import { FaHeart, FaUserAlt } from 'react-icons/fa';
+import { Link, NavLink } from 'react-router-dom';
+import { useSelector } from 'react-redux'
 
 function Header(props) {
   const favs = useSelector((state) => state.fav.value)

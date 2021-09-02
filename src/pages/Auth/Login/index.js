@@ -7,7 +7,6 @@ function Login(props) {
     password: '',
   });
 
-  const [users, setUsers] = useState([]);
   const auth = useAuth()
 
   function handleChange(e){

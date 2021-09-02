@@ -1,9 +1,6 @@
 import React, { Suspense, lazy } from 'react';
-import { Route, Switch } from 'react-router';
+import { Route } from 'react-router';
 
-// import About from './About';
-// import Home from './Home/index'
-// import Product from './Product';
 const Home = lazy(() => import('./Home'));
 const Product = lazy(() => import('./Product'));
 const About = lazy(() => import('./About'));

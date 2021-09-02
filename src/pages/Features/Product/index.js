@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaHeart } from 'react-icons/fa';
-import { useSelector, useDispatch } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { toggle } from '../../../store/favSlice';
 
 const Product = () => {
