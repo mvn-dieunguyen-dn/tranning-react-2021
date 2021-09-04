@@ -4,9 +4,11 @@ import useAuth from '../../hooks/useAuth';
 function Account(props) {
   const auth = useAuth()
   return (
-    <div>
+    <div className="page-account">
       <h1>This is Account page</h1>
-      <button className="btn" onClick={ auth.logout }>Logout</button>
+      <div className="btn-group">
+        <button className="btn" onClick={ auth.logout }>Logout</button>
+      </div>
     </div>
   );
 }

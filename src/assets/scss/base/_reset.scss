@@ -37,8 +37,9 @@ caption, th, td {
 q, blockquote {
   quotes: none;
 }
-a img {
+a {
   border: none;
+  text-decoration: none;
 }
 article, aside, details, figure, footer, header, menu, nav, section, summary {
   display: block;

@@ -3,44 +3,41 @@ import { FaHeart, FaUserAlt } from 'react-icons/fa';
 import { Link, NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux'
 
+
 function Header(props) {
   const favs = useSelector((state) => state.fav.value)
 
   return (
     <header className="page-header">
-      <div className="container">
-        <Link to="/" className="logo">
-          <img src="https://i0.wp.com/blackpinkupdate.com/wp-content/uploads/2020/06/BLACKPINK-Logo-Pink-PNG.jpg?ssl=1" alt="logo"/>
-        </Link>
-        <nav className="page-nav">
-          <ul>
+      <div className="header-page-top">
+        <a class="header-envato_market" href="/">Envato Market</a>
+        <a class="header-buy-now e-btn--3d -color-primary" href="/">Buy now</a>
+      </div>
+      <div className="header-page-bottom">
+        <div className="container">
+          <Link className="page-title" to="/">
+            DinaEdu
+          </Link>
+          <ul className="header-account">
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/">
+                <FaHeart />
+                <span>
+                  { !!favs.length && favs.length }
+                </span>
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/product">Product</NavLink>
+              <NavLink to="/auth/login">Courses</NavLink>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <NavLink to="/account"><FaUserAlt /></NavLink>
+            </li>
+            <li>
+              <NavLink to="/auth/login">Login</NavLink>
             </li>
           </ul>
-        </nav>
-        <ul className="header-account">
-          <li>
-            <NavLink to="/">
-              <FaHeart />
-              <span>
-                { !!favs.length && favs.length }
-              </span>
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/auth/login">Login</NavLink>
-          </li>
-          <li>
-            <NavLink to="/account"><FaUserAlt /></NavLink>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
   );
