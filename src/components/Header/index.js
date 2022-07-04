@@ -16,7 +16,7 @@ function Header(props) {
       <div className="header-page-bottom">
         <div className="container">
           <Link className="page-title" to="/">
-            DinaEdu
+            IELTS NHAN LE
           </Link>
           <ul className="header-account">
             <li>
