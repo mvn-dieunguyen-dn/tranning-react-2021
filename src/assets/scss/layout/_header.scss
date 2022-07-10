@@ -3,14 +3,15 @@
   .header-page-top {
     display: flex;
     justify-content: space-between;
-    padding: 24px 8px;
+    padding: 24px 13px;
     background: #262626;
     position: fixed;
     top: 0;
     width: 100%;
+    align-items: center;
     a {
       color: #ffffff;
-      font-size: 18px;
+      font-size: 23px;
     }
   }
   .header-page-bottom {
@@ -47,5 +48,10 @@
         }
       }
     }
+  }
+}
+@media only screen and (max-width: 960px) {
+  .header-page-top {
+    position: unset !important;
   }
 }

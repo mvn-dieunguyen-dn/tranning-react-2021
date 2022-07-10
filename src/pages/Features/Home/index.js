@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { FaCartPlus } from 'react-icons/fa';
 import { useDispatch } from 'react-redux'
 import { toggle } from '../../../store/favSlice';
+import banner from './banner.png';
+import banner2 from './banner2.png';
 
 function Home(props) {
   const dispatch = useDispatch()
@@ -78,10 +80,16 @@ function Home(props) {
   return (
     <section className="section-course">
         <div className="container">
-          <div className="course-main">
-            <p>Our Education, University, Learning System Demos</p>
+            {/* <div className="course-main">
+              <p>Our Education, University, Learning System Demos</p>
+            </div> */}
+          <div>
+          <img src={banner} alt="image" />
+          <img src={banner2} alt="image" />
+
           </div>
-           <ul className="course-list row">
+           {/* <ul className="course-list row">
+             
              {
                courses.map((e) => (
                  <div key={e.id} className="col-medium-4">
@@ -99,7 +107,7 @@ function Home(props) {
                  </div>
                ))
              }
-           </ul>
+           </ul> */}
          </div>
        </section>
   );
