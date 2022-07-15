@@ -3,8 +3,10 @@ import { FaHeart, FaUserAlt, FaFacebook } from 'react-icons/fa';
 import { Link, NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux'
 import zalo from './zalo.png'
-import fb2 from './fb2.png'
-import mail3 from './mail3.png'
+import fb from './fb.svg'
+import mail from './mail.svg'
+import ig from './ig.svg'
+import tiktok from './tiktok.svg'
 
 
 function Header(props) {
@@ -20,15 +22,22 @@ function Header(props) {
             <FaFacebook />
           </a> */}
           <a href='https://www.facebook.com/nhanle9321' target="_blank" >
-            <img src={fb2} style={{width:'50px', paddingBottom: '4px'}} />
+            <img src={fb} />
           </a>
-          {/* <a href='https://www.facebook.com/nhanle9321' target="_blank" >
-            <img src={zalo} style={{width:'55px'}} />
-          </a> */}
+
           <a href="mailto:nhanle7501@@gmail.com" target="_blank">
-            <img src={mail3} style={{width:'33px', paddingBottom: '12px'}} />
+            <img src={mail} />
+          </a>
+
+          <a href="https://www.instagram.com/itchyfeet44/" target="_blank">
+            <img src={ig} />
+          </a>
+
+          <a href="https://vt.tiktok.com/ZSRRYKyjd/" target="_blank">
+            <img src={tiktok} />
           </a>
         </div>
+        
       </div>
       {/* <div className="header-page-bottom">
         <div className="container">

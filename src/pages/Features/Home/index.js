@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import { FaCartPlus } from 'react-icons/fa';
 import { useDispatch } from 'react-redux'
 import { toggle } from '../../../store/favSlice';
-import banner from './banner.png';
-import banner2 from './banner2.png';
+import be from './be.jpg';
+import { Col, Row } from 'antd';
+import "antd/dist/antd.css";
+import './style.scss'
+
 
 function Home(props) {
   const dispatch = useDispatch()
@@ -78,16 +80,29 @@ function Home(props) {
   };
 
   return (
-    <section className="section-course">
+    <section>
         <div className="container">
             {/* <div className="course-main">
               <p>Our Education, University, Learning System Demos</p>
             </div> */}
-          <div>
-          <img src={banner} alt="image" />
-          <img src={banner2} alt="image" />
+          <Row className='main-content'>
+            <Col md={12} xs={24}>
+              <img src={be} alt="image" />
+            </Col>
+            <Col md={12} xs={24}>
+              <div className='content-right'>
+                <h2 className='ma-10 '>IELTS NHÀN LÊ</h2>Ielts Teacher
+                <p>( 8.0 Overall, 8.0 Writing)</p>
+                <p>Offer English courses for all levels</p>
+                <p>Phone/Zalo: 032.963.4383</p>
+              </div>
+            </Col>
+          </Row>
+          {/* <div>
+            <img src={banner} alt="image" />
+            <img src={banner2} alt="image" />
 
-          </div>
+          </div> */}
            {/* <ul className="course-list row">
              
              {

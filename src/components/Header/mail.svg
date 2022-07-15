@@ -1,0 +1,11 @@
+
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-mail" transform="translate(0.432545, 0.432545)" fill-rule="nonzero">
+            <circle id="Oval" stroke="#0EAF1C" stroke-width="0.865090211" fill="#FFFFFF" cx="22.0674549" cy="22.0674549" r="22.0674549"></circle>
+            <g id="mail_outline---material" transform="translate(10.835455, 13.099455)" fill="#0EAF1C">
+                <path d="M11.232,7.911 L20.25,2.268 L2.214,2.268 L11.232,7.911 Z M20.25,15.768 L20.25,4.536 L11.232,10.125 L2.214,4.536 L2.214,15.768 L20.25,15.768 Z M20.25,0 C20.862,0 21.384,0.225 21.816,0.675 C22.248,1.125 22.464,1.656 22.464,2.268 L22.464,15.768 C22.464,16.38 22.248,16.911 21.816,17.361 C21.384,17.811 20.862,18.036 20.25,18.036 L2.214,18.036 C1.602,18.036 1.08,17.811 0.648,17.361 C0.216,16.911 0,16.38 0,15.768 L0,2.268 C0,1.656 0.216,1.125 0.648,0.675 C1.08,0.225 1.602,0 2.214,0 L20.25,0 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

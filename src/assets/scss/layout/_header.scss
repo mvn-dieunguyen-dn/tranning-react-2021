@@ -4,14 +4,15 @@
     display: flex;
     justify-content: space-between;
     padding: 24px 13px;
-    background: #262626;
-    position: fixed;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);    
+    // position: fixed;
     top: 0;
     width: 100%;
     align-items: center;
     a {
       color: #ffffff;
       font-size: 23px;
+      margin-left: 6px;
     }
   }
   .header-page-bottom {
@@ -53,5 +54,13 @@
 @media only screen and (max-width: 960px) {
   .header-page-top {
     position: unset !important;
+    display: block !important;
+    text-align: center;
+  }
+  .social-network  {
+    margin-top: 12px;
+  }
+  .social-network a {
+    margin-right: 6px;
   }
 }
