@@ -86,6 +86,12 @@ function Home(props) {
               <p>Our Education, University, Learning System Demos</p>
             </div> */}
           <Row className='main-content'>
+            <div className='content'>
+              <p>- Link Vocal C1</p>
+              <a href='https://www.toe.gr/pluginfile.php?file=%2F2143%2Fmod_resource%2Fcontent%2F1%2FLevel%20C1%20Word%20List.pdf' target="_blank">
+                https://www.toe.gr/pluginfile.php?file=%2F2143%2Fmod_resource%2Fcontent%2F1%2FLevel%20C1%20Word%20List.pdf
+              </a>
+            </div>
             <Col md={12} xs={24}>
               <img src={be} alt="image" />
             </Col>
