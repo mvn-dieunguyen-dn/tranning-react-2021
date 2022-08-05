@@ -7,6 +7,7 @@ import fb from './fb.svg'
 import mail from './mail.svg'
 import ig from './ig.svg'
 import tiktok from './tiktok.svg'
+import be from './be.png';
 
 
 function Header(props) {
@@ -33,7 +34,9 @@ function Header(props) {
   return (
     <header className="page-header">
       <div className="header-page-top">
-        <a class="header-envato_market" href="/">IELTS NHAN LE</a>
+        <a class="header-envato_market logo-be" href="/">
+          <img src={be} />IELTS Nhan Le
+        </a>
         <div className='social-network'>
           <a onClick={openFB}>
             <img src={fb} />

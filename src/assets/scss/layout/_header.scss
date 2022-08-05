@@ -4,14 +4,14 @@
     display: flex;
     justify-content: space-between;
     padding: 24px 13px;
-    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);    
+    background: #ffffff;
     // position: fixed;
     top: 0;
     width: 100%;
     align-items: center;
     a {
-      color: #ffffff;
-      font-size: 23px;
+      color: #000;
+      font-size: 33px;
       margin-left: 6px;
     }
   }
@@ -62,5 +62,15 @@
   }
   .social-network a {
     margin-right: 6px;
+  }
+}
+.logo-be {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
   }
 }
