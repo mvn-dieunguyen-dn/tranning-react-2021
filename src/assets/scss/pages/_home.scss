@@ -27,6 +27,7 @@
 .content {
   width: 100%;
   a {
+    line-height: 2;
     font-size: 13px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -36,7 +37,7 @@
   }
   p {
     margin: 0;
-    margin: 13px;
+    margin-left: 13px;
   }
 }
 .slick-slide img {
